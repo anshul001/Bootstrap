@@ -1,0 +1,87 @@
+#input_search{
+  width: 200px;
+}
+.navbar{
+  background: #eee;
+}
+#sign-btn{
+  margin-top: 5px;
+}
+iframe{
+  margin-top: 5px;
+}
+
+#my_carousel .item{
+  height: 400px;
+}
+#moredest{
+  margin-left: 14px;
+  margin-right: 14px;
+}
+#bigcallout{
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.unstyled{
+  list-style: none;
+  padding: 0px;
+}
+footer{
+  background: black;
+}
+#slide_1{
+  background: url("../images/md-1.jpg") top center no-repeat;
+}
+#slide_2{
+  background: url("../images/md-2.jpg") top center no-repeat;
+}
+#slide_3{
+  background: url("../images/md-3.jpg") top center no-repeat .8;
+
+}
+@media (max-width: 480px) {
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #mycarousel .item{
+    height: 310px;
+  }
+  #slide_1{
+    background: url(../images/sm-1.jpg) top center no-repeat;
+  }
+  #slide_2{
+    background: url(../images/sm-2.jpg) top center no-repeat;
+  }
+  #slide_3{
+    background: url(../images/sm-3.jpg) top center no-repeat;
+  }
+  .carousel-caption p{
+    font-size: 16px;
+  }
+  .carousel-caption h4{
+    font-size: 22px;
+  }
+
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #mycarousel .item{
+    height: 500px;
+  }
+  #slide_1{
+    background: url(../images/lg-1.jpg) top center no-repeat;
+  }
+  #slide_2{
+    background: url(../images/lg-2.jpg) top center no-repeat;
+  }
+  #slide_3{
+    background: url(../images/lg-3.jpg) top center no-repeat;
+  }
+
+}
